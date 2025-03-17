@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunchacko Shinoj</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5dc;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            overflow: hidden;
+        }
+        .verse {
+            font-size: 24px;
+            font-weight: 600;
+            color: #333;
+            max-width: 600px;
+            position: relative;
+            left: -100%;
+            animation: slideIn 2.5s ease-out forwards;
+        }
+        @keyframes slideIn {
+            from {
+                left: -100%;
+            }
+            to {
+                left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="verse">
+        "Do not gloat over me, my enemy! Though I have fallen, I will rise. Though I sit in darkness, the Lord will be my light." - Micah 7:8
+</body>
+</html>
